@@ -5,7 +5,6 @@ Boys:
 1. Arquero, Jubert
 2. Martinez, Ruzell
 3. Perlada, Rostum
-
 Girls:
 4. Hernandez, Pearl
 5. Menes, Angelica
