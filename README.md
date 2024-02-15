@@ -1,12 +1,12 @@
 # Project-FB-UI-Clone-React-
 **Group members:**
 
-**Boys:**
-Arquero, Jubert
-Martinez, Ruzell
-Perlada, Rostum
+1. **Boys:**
+2. Arquero, Jubert
+3. Martinez, Ruzell
+4. Perlada, Rostum
 
-**Girls:**
-Hernandez, Pearl
-Menes, Angelica
-Nario, Anna Mae
+5. **Girls:**
+6. Hernandez, Pearl
+7. Menes, Angelica
+8. Nario, Anna Mae
