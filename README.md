@@ -5,7 +5,7 @@ Boys:
 1. Arquero, Jubert
 2. Martinez, Ruzell
 3. Perlada, Rostum
-Girls:
-4. Hernandez, Pearl
-5. Menes, Angelica
-6. Nario, Anna Mae
+4. Girls:
+5. Hernandez, Pearl
+6. Menes, Angelica
+7. Nario, Anna Mae
