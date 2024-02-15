@@ -1,0 +1,373 @@
+.main-panel {
+    padding-top: 24px;
+    display: flex;
+}
+.left-panel {
+    padding-top: 14px;
+    width: 302px;
+    position: fixed;
+    top: 56px;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    
+}
+.left-panel:hover {
+    cursor: pointer;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.left-panel::-webkit-scrollbar {
+    width: 8px;
+}
+.left-panel::-webkit-scrollbar-track {
+    background: #f2f2f2;
+}
+.left-panel::-webkit-scrollbar-thumb {
+    background: silver;
+    border-radius: 4px;
+}
+.left-panel li:hover {
+    background: rgb(228, 230, 235);
+}
+.left-panel div {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-font-smoothing: antialized;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+.left-panel ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 44px;
+    padding: 0px 16px;
+    transition: background .1s ease-in;
+}
+.left-panel ul li h3 {
+    color: hsl(0, 0%, 30%);
+}
+.left-panel ul li img {
+    height: 26px;
+    width: 26px;
+    margin-right: 10px;
+}
+.left-panel ul li img.catc {
+    height: 26px;
+    width: 26px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.left-panel ul li img.profile {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+.footer {
+    font-size: 12px;
+    
+}
+
+.middle-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+.middle-panel .stories {
+    margin: 0px, 32px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.middle-panel .stories .user-story {
+    height: 250px;
+    width: 140px;
+    box-shadow: 0px 1px 3px #ccc;
+    border-radius: 10px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.middle-panel .stories .user-story img.myAccount {
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.middle-panel .stories .user-story img.story {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.middle-panel .stories .user-story img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.middle-panel .stories .user-story .create-story {
+    height: 19%;
+    position: relative;
+    background-color: #ffffff;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-family: inherit;
+    font-size: 12px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.middle-panel .stories .user-story .create-story .plus-icon {
+    position: absolute;
+    top: -17px;
+    height: 30px;
+    width: 30px;
+    background: #fff;
+    border-radius: 50%;
+}
+.userProfile {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 12px;
+    left: 12px;
+    border-radius: 50%;
+    border: solid royalblue 4px;
+}
+div.OnOffline {
+    z-index: 100;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: solid #fff 2px;
+    background: green;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.middle-panel .userMoment {
+    margin-top: 20px;
+    padding: 12px 16px 10px;
+    width: 500px;
+    height: 127px;
+    background: #fff;
+    box-shadow: 0px 1px 3px #ccc;
+    border-radius: 10px;
+}
+.middle-panel .userMoment .moment {
+    display: flex;
+    gap: 10px;
+} 
+.middle-panel .userMoment .moment-act {
+    display: flex;
+    align-items: center;
+    margin: 0px 30px;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.middle-panel .userMoment .moment-act .user-act {
+    display: flex;
+    gap: 10px;
+    padding: 6px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+.middle-panel .userMoment .moment-act .user-act:hover {
+    background: #eee;
+}
+.middle-panel .userMoment .moment-act .user-act div {
+    padding-top: 5px;
+}
+.middle-panel .userMoment .profile {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+.middle-panel .userMoment input {
+    width: 420px;
+    height: 40px;
+    font-size: 18px;
+    font-family: inherit;
+    background: #F0F2F5;
+    padding: 8px 12px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+.middle-panel .user-post {
+    margin: 20px 0px;
+    width: 500px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px #ccc;
+}
+.middle-panel .group-post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+.middle-panel .group-post span {
+    color: blue;
+}
+.middle-panel .group-post .group-profile {
+    display: flex;
+    width: 50px;
+    padding: 10px 0px;
+}
+.middle-panel .group-post .group-profile img {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.middle-panel .user-post .content-post img {
+    width: 100%;
+}
+.middle-panel .user-post .react {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.middle-panel .user-post .react .like, .comment, .share {
+    display: flex;
+    align-items: center;
+}
+.middle-panel hr {
+    margin: 0px 20px;
+}
+.right-panel {
+    width: 302px;
+    padding-top: 12px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 56px;
+    overflow: hidden;
+}
+.right-panel:hover {
+    cursor: pointer;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.right-panel::-webkit-scrollbar {
+    width: 8px;
+}
+.right-panel::-webkit-scrollbar-track {
+    background: #f2f2f2;
+}
+.right-panel::-webkit-scrollbar-thumb {
+    background: silver;
+    border-radius: 4px;
+}
+.right-panel li:hover {
+    background: rgb(228, 230, 235);
+}
+.right-panel ul li {
+    list-style-type: none;
+}
+.right-panel .contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-panel .contacts .more {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.right-panel .contacts div {
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: hsl(0, 0%, 20%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-font-smoothing: antialized;
+    font-weight: 500;
+}
+.right-panel .contacts .more img {
+    height: 24px;
+}
+.right-panel .contact-lists li {
+    display: flex;
+    align-items: center;
+    height: 44px;
+    gap: 10px;
+    position: relative;
+    transition: all 0.1s ease-in-out;
+}
+.right-panel .contact-lists li img {
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.right-panel .contact-lists li p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-font-smoothing: antialized;
+    font-weight: 500;
+    font-size: 15px;
+} 
+.right-panel .contact-lists li .status {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: green;
+    border: solid 2px #fff;
+    position: absolute;
+    left: 20px;
+    bottom: 5px;
+}
+.right-panel li:hover {
+    background: rgb(228, 230, 235);
+}
+@media (max-width: 1000px) {
+    .left-panel {
+        display: none;
+    }
+    body {
+        padding-left: 10px;
+    }
+    .middle-panel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .left-panel, .right-panel {
+        display: none;
+    }
+    body {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .middle-panel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .middle-panel .user-post {
+        margin: 10x 0px;
+        width: 500px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 1px 3px #ccc;
+    }
+    .middle-panel .group-post {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 10px;
+    }
+}
